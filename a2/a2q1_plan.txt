@@ -1,0 +1,37 @@
+# Jeremy Bernhardt, jrb569, 11119747, CMPT 145: 2020ST2
+
+Requirements:
+  Day:            July 8
+  Time:           1045
+  Location:       Home
+  Duration:       10min
+  Actual Time:    5min
+
+Design:
+  Day:            July 8
+  Time:           1100
+  Location:       Home
+  Duration:       15min
+  Actual Time:
+
+Implementation:
+  Day:            July 8
+  Time:           1115
+  Location:       Home
+  Duration:       25min
+  Actual Time:
+
+Testing/Debugging:
+  Day:            July 8
+  Time:           1145
+  Location:       Home
+  Duration:       20min
+  Actual Time:
+
+Tidying:
+  Day:            July 8
+  Time:           1215
+  Location:f      Home
+  Duration:       10min
+  Actual Time:
+
