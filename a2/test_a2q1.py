@@ -5,7 +5,7 @@ import a2q1
 class TestCalcWalk(unittest.TestCase):
     testData = [  ['L L L', 3],             ['R L L', 1],
                   ['R R L', 1],             ['R R R', 3],
-                  ['asdfsadseesdf', 0],     ['U', 0],
+                  ['asdfsadseesdf', 0],     ['', 0],
                   ['R L L R', 0],           ['L R R L R', 1]]
 
     # verify a single pair

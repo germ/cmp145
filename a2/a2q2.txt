@@ -1,0 +1,35 @@
+# Jeremy Bernhardt, jrb569, 11119747, CMPT 145: 2020ST2
+# a2q2.txt: More Reflections
+
+1) Comment on you programs correctness
+
+Program passes all tests and outputs correct data. Handles garbage input and doesn't hard crash from 
+what I can tell. I've made a good effort to break my program and stop it from happening again. More
+test cases (and more variety) would raise this confidence. Most programs are incorrect in some way,
+this one is no different. Until a user tries to break it themselves, I believe it is bug-free
+
+2) Comment on you programs efficiency
+
+Program loops over each file exactly once, cleaning open FDs as it goes. Input is scanned n times 
+(with n being the size of the pairs array). For small n this will be fine, but for larger walks and
+pair sets a single scan and updating the return dictionary as it scans would be ideal. For the given
+set of data the program runs in 3ms including setup/teardown, the unix time command was used to get this
+data.
+
+3) Comment on you programs adaptability
+The program is easily adaptable, and can handle multiple pairs. This is currently governed by a single 
+array 'axis' in main that contains the pair tuples to check for. If this is extended to have other values
+they are scanned as well and the output modified to display them. In addition the getDistance() function 
+is currently a one-liner, but could be adapted in various ways. Pythons typing module was used to make a 
+simple well defined interface for extending this code.
+
+4) Comment on you programs robustness
+The program handles wrong inputs and usage fairly well. File IO is wrapped to catch exceptions, the code
+was tested against various input and pythons typing module was used to ensure values are of the correct
+types and minimize runtime errors. The only problem I see with regards to robustness is reading files myself
+instead of piping them in and relying on the underlying OS to open/read/network. 
+
+5) Comment on interruptions
+The biggest distraction was between my cat and noise from my girlfriend setting up a couch. These were minor
+annoyances at best and I was able to get back into work easily. In the future a good pair of headphones and 
+closing the door would help with interruptions.

@@ -32,3 +32,8 @@ getDistance(src: str, axis: Tuple[str, str]) -> int:
   Call count() for each axis
   Subtract from each other
   keturn absolute value
+
+Test cases:
+  - output from single axis
+  - handling of garbage
+  - handling no inputs

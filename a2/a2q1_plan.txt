@@ -12,26 +12,25 @@ Design:
   Time:           1100
   Location:       Home
   Duration:       15min
-  Actual Time:
+  Actual Time:    20min
 
 Implementation:
   Day:            July 8
   Time:           1115
   Location:       Home
   Duration:       25min
-  Actual Time:
+  Actual Time:    30min
 
 Testing/Debugging:
   Day:            July 8
   Time:           1145
   Location:       Home
   Duration:       20min
-  Actual Time:
+  Actual Time:    15min
 
 Tidying:
   Day:            July 8
   Time:           1215
   Location:f      Home
   Duration:       10min
-  Actual Time:
-
+  Actual Time:    10min

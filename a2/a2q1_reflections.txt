@@ -1,1 +1,20 @@
 # Jeremy Bernhardt, jrb569, 11119747, CMPT 145: 2020ST2
+
+1) How long did it take for you to create your plan?
+
+About 15 minutes, most of that was spent understanding the various requirements and how to structure
+the code into manageable segments for handling multiple axis.
+
+2) Did you revise your design? In other words, did any part of your implementation turn out to be 
+   significantly different from your design? If so, briefly explain the reason for the difference(s)
+
+Not the design, it was fairly well thought out. The only snag I had with the implementation was for
+displaying multiple-pair data to be in line with the output expected by the assignment. As there
+wasn't a specified way to output multi-pair data I just dumped the dictionary to the console.
+
+3) Did any of the phases take signicantly longer than you had planned? 
+   If so, explain what happened,and suggest ways to avoid this in the future
+
+The design phase took longer then I would have thought. But by the time I had prepared a decent structure
+for the project the implementation phase took less time and didn't require rewriting. In the future more
+time should be allocated to designing and less for implementing
