@@ -1,0 +1,34 @@
+# Jeremy Bernhardt, jrb569, 11119747, CMPT 145: 2020ST2
+
+main:
+  Check for argv population
+    Display usage information and exit if blank
+  Loop over passed args
+    Attempt to open, warn on error
+    emit file name
+    read line-by-line, passing to calcWalk
+    emit counts
+  exit
+
+calcWalk(walk: str, pairs: List[Tuple[str, str]]) -> (Dict[str, int]):
+  walk:   The input to parse
+  pairs:  List of tuples for walk axis (L, R), (U, D), etc
+
+  returns: 
+    Dict[str, int] with entries for each axis and total computed
+
+  Loop over pairs
+    call getDistance() on each set 
+    add to return value
+  return filled dictionary
+
+getDistance(src: str, axis: Tuple[str, str]) -> int:
+  src:  The input string to be processed for walk
+  axis: Tuple containing pairs to count
+
+  returns:
+    absolute value of difference
+
+  Call count() for each axis
+  Subtract from each other
+  keturn absolute value
