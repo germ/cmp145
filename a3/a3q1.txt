@@ -1,0 +1,25 @@
+# Jeremy Bernhardt, jrb569, 11119747, CMPT 145: 2020ST2
+
+Question 1:
+copy1():
+  - Does not make a deep copy (dst has same address as src)
+  - Not suitable if preserving src is required
+  - Suitable if destruction of src is acceptable
+
+copy2():
+  - Generates a array from 0-len(src) integers
+  - Does not copy src data 
+  - Not suitable for any kind of copying
+
+copy3():
+  - Errors out when used
+  - Even if fixed, src data is removed 
+  - Not suitable/working
+
+copy4():
+  - Scope issues prevent modification of passed dst
+  - Not suitable/working
+
+copy5():
+  - Array is properly constructed, but only the local reference to copy is updated
+  - Not suitable/working

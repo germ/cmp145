@@ -1,0 +1,14 @@
+# Jeremy Bernhardt, jrb569, 11119747, CMPT 145: 2020ST2
+# Assignment 3: ADTs and Testing
+
+Changes to ADT:
+    Added the minimum() and maximum() functions to the implementation This required two new
+    state variables __min and __max which are initially set to None. When data arrives these
+    are overwritten.
+
+    Handling logic was needed for being unable to handle these as numeric inputs and the initial
+    case of transitioning types. In addition add() was extended to handle the new state.
+
+    Test cases were added to a4q2_testing to test how the initial values and operations worked
+    around empty/near-empty initialized structures. This included expanding the expected values 
+    for testOperations()
