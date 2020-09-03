@@ -1,0 +1,3 @@
+This file was created with Vim, crazy world we live in.
+We can even run a spell check by :set spell, nuts.
+Save with :w labfile.txt

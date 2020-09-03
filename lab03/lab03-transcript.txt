@@ -1,0 +1,152 @@
+# Jeremy Bernhardt, jrb569, 11119747, CMPT 145: 2020ST2
+
+# Version 1
+germ@linbox ~/D/u/c/lab03> python fact.py 1
+1
+germ@linbox ~/D/u/c/lab03> python fact.py 2
+2
+germ@linbox ~/D/u/c/lab03> python fact.py 3
+6
+germ@linbox ~/D/u/c/lab03> python fact.py 4
+24
+germ@linbox ~/D/u/c/lab03> 
+
+# Version 2
+germ@linbox ~/D/u/c/lab03> python fact.py
+Usage: fact.py [positive int]
+germ@linbox ~/D/u/c/lab03> echo $status
+255
+germ@linbox ~/D/u/c/lab03> python fact.py 3
+6
+germ@linbox ~/D/u/c/lab03> echo $status
+0
+germ@linbox ~/D/u/c/lab03> python fact.py 5
+120
+germ@linbox ~/D/u/c/lab03> echo $status
+0
+germ@linbox ~/D/u/c/lab03> 
+
+# Walks
+germ@linbox ~/D/u/c/lab03> python self-avoiding-random-walk.py
+6.0% dead ends
+germ@linbox ~/D/u/c/lab03> python self-avoiding-random-walk.py
+10.0% dead ends
+germ@linbox ~/D/u/c/lab03> vim lab03-transcript.txT^C
+germ@linbox ~/D/u/c/lab03> python self-avoiding-random-walk.py
+5.0% dead ends
+
+germ@linbox ~/D/u/c/lab03> python self-avoiding-random-walk.py
+Usage ./sarw.py [room width (int)] [trial amount (int)]
+germ@linbox ~/D/u/c/lab03> python self-avoiding-random-walk.py 10 10
+0.0% dead ends, n = 10
+germ@linbox ~/D/u/c/lab03> python self-avoiding-random-walk.py 20 10
+60.0% dead ends, n = 20
+germ@linbox ~/D/u/c/lab03> python self-avoiding-random-walk.py 100 10
+100.0% dead ends, n = 100
+germ@linbox ~/D/u/c/lab03> python self-avoiding-random-walk.py 100 1000
+99.5% dead ends, n = 100
+germ@linbox ~/D/u/c/lab03> 
+
+germ@linbox ~/D/u/c/lab03> seq 100 | parallel python self-avoiding-random-walk.py {} 10000
+0.0% dead ends, n = 1
+0.0% dead ends, n = 2
+0.0% dead ends, n = 3
+0.0% dead ends, n = 4
+0.0% dead ends, n = 5
+0.21% dead ends, n = 6
+0.94% dead ends, n = 7
+1.81% dead ends, n = 8
+3.41% dead ends, n = 9
+5.36% dead ends, n = 10
+6.62% dead ends, n = 11
+9.74% dead ends, n = 12
+11.72% dead ends, n = 13
+funcsave: Unknown function “Gtee”
+14.7% dead ends, n = 14
+17.77% dead ends, n = 15
+20.5% dead ends, n = 16
+23.29% dead ends, n = 17
+26.26% dead ends, n = 18
+29.35% dead ends, n = 19
+32.11% dead ends, n = 20
+36.16% dead ends, n = 21
+38.01% dead ends, n = 22
+42.44% dead ends, n = 23
+44.14% dead ends, n = 24
+47.52% dead ends, n = 25
+49.86% dead ends, n = 26
+53.0% dead ends, n = 27
+55.45% dead ends, n = 28
+57.43% dead ends, n = 29
+58.81% dead ends, n = 30
+60.79% dead ends, n = 31
+62.82% dead ends, n = 32
+65.49% dead ends, n = 33
+67.61% dead ends, n = 34
+69.42% dead ends, n = 35
+70.98% dead ends, n = 36
+72.93% dead ends, n = 37
+73.58% dead ends, n = 38
+76.2% dead ends, n = 39
+77.41% dead ends, n = 40
+78.37% dead ends, n = 41
+79.74% dead ends, n = 42
+80.86% dead ends, n = 43
+81.67% dead ends, n = 44
+83.14% dead ends, n = 45
+84.34% dead ends, n = 46
+84.84% dead ends, n = 47
+85.99% dead ends, n = 48
+86.68% dead ends, n = 49
+87.74% dead ends, n = 50
+88.64% dead ends, n = 51
+88.69% dead ends, n = 52
+89.23% dead ends, n = 53
+90.38% dead ends, n = 54
+91.11% dead ends, n = 56
+90.81% dead ends, n = 55
+92.14% dead ends, n = 57
+92.45% dead ends, n = 58
+92.99% dead ends, n = 59
+93.62% dead ends, n = 60
+93.75% dead ends, n = 61
+94.25% dead ends, n = 62
+94.45% dead ends, n = 63
+94.84% dead ends, n = 64
+95.16% dead ends, n = 65
+95.84% dead ends, n = 66
+95.53% dead ends, n = 67
+95.9% dead ends, n = 68
+96.18% dead ends, n = 69
+96.5% dead ends, n = 70
+96.91% dead ends, n = 71
+97.03% dead ends, n = 72
+97.16% dead ends, n = 73
+97.62% dead ends, n = 74
+97.61% dead ends, n = 75
+97.79% dead ends, n = 76
+97.71% dead ends, n = 77
+98.02% dead ends, n = 78
+97.99% dead ends, n = 79
+98.23% dead ends, n = 80
+98.48% dead ends, n = 81
+98.41% dead ends, n = 82
+98.44% dead ends, n = 83
+98.62% dead ends, n = 84
+98.82% dead ends, n = 85
+98.59% dead ends, n = 86
+98.83% dead ends, n = 87
+98.82% dead ends, n = 88
+99.14% dead ends, n = 89
+99.07% dead ends, n = 90
+98.98% dead ends, n = 91
+99.2% dead ends, n = 92
+99.33% dead ends, n = 93
+99.5% dead ends, n = 96
+99.32% dead ends, n = 94
+99.5% dead ends, n = 97
+99.3% dead ends, n = 95
+99.51% dead ends, n = 98
+99.51% dead ends, n = 99
+99.5% dead ends, n = 100
+germ@linbox ~/D/u/c/lab03> 
